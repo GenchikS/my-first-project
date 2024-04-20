@@ -1,0 +1,177 @@
+body{
+    width: 375px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+.container-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+
+.icon-vector-svg{
+    background-color: #111111;
+    fill: #FD9222;
+}
+
+.icon-menu-03-svg{
+    color: #FD9222;
+    stroke-width: 2px;
+    fill: #111111;
+}
+
+
+/* hero */
+.hero{
+    width: 375px;
+    padding: 0;
+}
+
+.hero-container{
+    height: 100%;
+    padding: 395px 20px 20px 20px;
+    border: none;
+    border-radius: 30px;
+    background-image: url(../img/start-page-mob-1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 0%); */
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.hero{
+    width: 100%;
+}
+
+.hero-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+}
+
+.button-hero-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button-title-hero{
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    padding: 12px 28px;
+    margin-bottom: 32px;
+}
+
+.button-title-hero:hover,
+.button-title-hero:focus{
+    border: none;
+    background-color: #FD9222;
+}
+
+.scrol-hero{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+}
+
+.hero-scrol-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon-scrol{
+    border: none;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.icon-scrol-svg{
+    position: absolute;
+    transform: translate(20%, 25%);
+    fill: #FD9222;
+}
+
+
+/* section 2 */
+.background{
+    min-width: 375px;
+    background-color: #1E1823;
+}
+
+.benefits-container{
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits-list{
+    padding-right: 28px;
+}
+
+.benefits-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.benefits-text{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-group-container{
+    margin-bottom: 22px;
+}
+
+.icon-group{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    background-color: #111111;
+}
+
+.icon-group-svg{
+    position: absolute;
+    transform: translate(25%, 25%);
+    fill: #FD9222;
+}
+
+
