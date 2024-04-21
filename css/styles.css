@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p, a{
     margin: 0;
 }
 
+ul, li {
+    margin: 0;
+}
+
 .container{
     width: 375px;
     padding: 0 20px;
@@ -189,4 +193,91 @@ h1, h2, h3, h4, h5, h6, p, a{
     fill: #FD9222;
 }
 
+/* section 3 */
+.title-blocks-container{
+    margin-bottom: 32px;
+}
+
+.title-blocks{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+    padding: 80px 26px 0 26px;
+    margin-bottom: 24px;
+}
+
+.title-span{
+    color: #FD9222;
+}
+
+.text-blocks{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111111;
+}
+
+/* list img */
+.blocks-container{
+    margin-bottom: 80px;
+}
+
+.blocks-list-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.blocks-list-milk-chocolete{
+    border: none;
+    border-radius: 15px;
+    background-color: #FD9222;
+}
+
+.list-img-all{
+    padding: 32px 49px 0 50px;
+    margin-bottom: 16px;
+}
+
+.text-milk-chocolete-nuts{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 28px;
+    padding-bottom: 28px;
+}
+
+.blocks-list-milk-semi{
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.text-milk-semi{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111111;
+    padding-left: 28px;
+    padding-bottom: 28px;
+}
+
+.blocks-list-nuts{
+    border: none;
+    border-radius: 15px;
+    background-color: #111111;
+}
 
