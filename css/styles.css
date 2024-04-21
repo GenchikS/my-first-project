@@ -224,6 +224,10 @@ ul, li {
 }
 
 /* list img */
+.blocks-container{
+    margin-bottom: 80px;
+}
+
 .blocks-list-img{
     display: flex;
     flex-direction: column;
