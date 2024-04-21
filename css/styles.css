@@ -1,8 +1,7 @@
 body{
-    width: 375px;
+    /* width: 375px; */
     font-family: Montserrat, sans-serif;
     font-style: normal;
-    color: #ffffff;
     margin: 0 auto;
 }
 
@@ -11,6 +10,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .container{
+    width: 375px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-style: italic;
     font-weight: 700;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.03em;
     color: #111111;
 }
@@ -72,9 +72,10 @@ h1, h2, h3, h4, h5, h6, p, a{
 .hero-title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.20;
     letter-spacing: -0.03em;
     margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .button-hero-list{
@@ -105,6 +106,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.03em;
+    color: #ffffff;
 }
 
 .hero-scrol-icon{
@@ -126,17 +128,21 @@ h1, h2, h3, h4, h5, h6, p, a{
     fill: #FD9222;
 }
 
+.icon-scrol:hover {
+    background-color: #FD9222;
+    fill: #ffffff;
+}
 
 /* section 2 */
 .background{
-    min-width: 375px;
+    width: 100%;
     background-color: #1E1823;
 }
 
 .benefits-container{
     justify-content: space-evenly;
     gap: 20px;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -149,6 +155,7 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 18px;
+    color: #ffffff;
 }
 
 .benefits-text{
@@ -156,6 +163,14 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-size: 14px;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.teste{
+    margin-bottom: 18px;
+}
+
+.production{
+    margin-bottom: 16px;
 }
 
 .icon-group-container{
